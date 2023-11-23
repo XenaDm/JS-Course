@@ -1,3 +1,4 @@
+// Створити масив, наповнити його 10 елементами будь-якого типу, вивести кожен елемент в консоль
 let masiv = [
     elem1 = 1,
     elem2 = 2,
@@ -11,83 +12,86 @@ let masiv = [
     elem10 = 10
 ]
 console.log(masiv)
-// ---------------------------------------------------------------------
+// --------------------------------------------------------------------------------------
+// Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre.
+// Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre, authors. Поле "автори" - являється  масивом. Кожен автор має поля name та age.
 let firstBook = {
     title: 'Interest to psychoanalize',
     pageCount: 300,
     genre: 'psychotherapy',
-    authors: {
-        name:'Farenheit',
-        age: 150
-    }
+    authors: [
+        {name:'Farenheit'},
+        {age: 150}
+]
 }
 let secondBook = {
     title: 'Love&Dove',
     pageCount: 150,
     genre: 'drama',
-    authors: {
-        name:'Tyhomirov',
-        age: 50
-    }
+    authors: [
+        {name:'Tyhomirov'},
+        {age: 50}
+    ]
 }
 let thirdBook = {
     title: 'The DaVinci code',
     pageCount: 400,
     genre: 'mystery',
-    authors: {
-        name:'Den Brown',
-        age: 59
-    }
+    authors: [
+        {name:'Den Brown'},
+        {age: 59}
+    ]
 }
 console.log(firstBook, secondBook, thirdBook)
-// ---------------------------------------------------------------------
+// ---------------------------------------------------------------------------------------------------------
+// Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль пароль кожного користувача
  let users = [
-     user1 = {
-         name: 'Alex',
+      {
+          name: 'Alex',
          username: 'Alexx',
          password: 'Alex1237'
-     },
-     user2 = {
+      },
+     {
          name: 'Ann',
          username: 'Anna',
          password: 'Ann1237'
      },
-     user3 = {
+     {
          name: 'Denis',
          username: 'Den',
          password: 'Den1237'
      },
-     user4 = {
+     {
          name: 'Lolitta',
          username: 'Lola',
          password: 'Lola1237'
      },
-     user5 = {
+     {
          name: 'Antonina',
          username: 'Tonia',
          password: 'Tonia1237'
      },
-     user6 = {
+     {
          name: 'Anatolii',
          username: 'Tolia',
          password: 'Tolia1237'
      },
-     user7 = {
+     {
          name: 'Ihor',
          username: 'Thor',
          password: 'Thor1237'
      },
-     user8 = {
+     {
          name: 'Afanasii',
          username: 'Afan',
          password: 'Afan1237'
      },
-     user9 = {
+     {
          name: 'Nikolay',
          username: 'Kolia',
          password: 'Kolia1237'
      },
-     user10 = {
+     {
          name: 'Oxana',
          username: 'Ksiusha',
          password: 'Ksiu1237'
